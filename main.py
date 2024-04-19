@@ -35,5 +35,5 @@ def ru(message):
         message.chat.id,
         text=Translate(format_text_message).en_ru()
         )
-
+# Эта функция заставляет когд повторяться, то как mailoop в tkinter
 bot.polling(non_stop=True)
